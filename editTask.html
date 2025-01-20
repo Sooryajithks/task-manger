@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editTasks</title>
+    <link rel="stylesheet" href="editTask.css">
+</head>
+<body>
+    <h2 id="editTitle">
+        Edit Tasks
+    </h2>
+    <div id="editTasks">
+        <label for="days" id="daysLabel">Select Day:</label>
+        <select id="days">
+            <option>monday</option>
+            <option>tuesday</option>
+            <option>wednesday</option>
+            <option>thursday</option>
+            <option>friday</option>
+            <option>saturday</option>
+            <option>sunday</option>
+        </select>
+        <br>
+        <input id="tasks" placeholder="add a task">
+        <br>
+        <button id="taskAdd">Add</button>
+        <br>
+    </div>
+
+    <div class="container">
+        <div id="monDiv">Monday
+            <ul id="monList"></ul>
+        </div>
+        
+        <div id="tueDiv">Tuesday
+            <ul id="tueList"></ul>
+        </div>
+        
+        <div id="wedDiv">Wednesday
+            <ul id="wedList"></ul>
+        </div>
+        
+        <div id="thuDiv">Thursday
+            <ul id="thuList"></ul>
+        </div>
+        <br>
+    </div>
+
+    <div class="container">
+        <div id="friDiv">Friday
+            <ul id="friList"></ul>
+        </div>
+        
+        <div id="satDiv">Saturday
+            <ul id="satList"></ul>
+        </div>
+        
+        <div id="sunDiv">Sunday
+            <ul id="sunList"></ul>
+        </div>
+
+        <!--finish button-->
+        <button id="finish">finish</button>
+        <div id="nextPage">
+        
+        </div>
+    </div>  
+
+    
+
+    <script src="editTask.js"></script>
+</body>
+</html>

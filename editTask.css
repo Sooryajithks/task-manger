@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(251, 252, 214);
+    
+}
+
+#editTitle {
+    font-family: cursive;
+    color: rgb(212, 10, 10);
+    text-align: center;
+}
+
+#daysLabel {
+    font-family: monospace;
+    color: rgb(2, 2, 88);
+    font-size: 20px;
+    text-align: center;
+}
+
+#editTasks{
+    text-align: center;
+    line-height: 3.6;
+}
+
+#days {
+    color: rgb(243, 207, 214);
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: rgb(139, 153, 70);
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+#tasks {
+    padding: 10px 10px;
+    background-color: rgb(249, 225, 225);
+    font-family: cursive;
+    color: rgb(12, 1, 83);
+
+}
+
+#taskAdd , #finish{
+    background-color: #007BFF;
+    color: white;
+}
+
+#monDiv, #tueDiv, #wedDiv, #thuDiv {
+            display: inline-block;
+            padding: 30px 30px;
+            margin: 10px;
+            background-color: lightblue;
+            background-color: rgb(250, 178, 253);
+            color: white;
+
+}
+
+#friDiv, #satDiv, #sunDiv {
+            display: inline-block;
+            padding: 30px 30px;
+            margin: 10px;
+            background-color: rgb(250, 178, 253);
+            color: white;
+            
+}
+
+.container {
+    text-align: center;
+}
+
+.taskListItem {
+    font-family: monospace;
+    color: rgb(2, 65, 20);
+    font-size: large;
+}
+
+.removeButton {
+    padding: .5px 1px;
+    background-color: black;
+    color: rgb(244, 8, 8);
+    border-radius: 1px;
+}
+
+ul li::marker {
+    color: black;
+    font-size: medium;
+}
+
+/* finish and next page button on the same line */
+#finish, #nextPage {
+    display: inline;
+    
+}
